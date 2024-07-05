@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GastroNet</title>
+  <link rel="stylesheet" href="salaries.css">
+
+  <link rel="stylesheet" href="../nav.css">
+  <script src="../nav.js" defer></script>
+</head>
+
+<body>
+
+  <h1 id="titre">GastroNet</h1>
+  <div class="color">
+    <input type="checkbox" role="button" aria-label="Display the menu" id="menu">
+    <nav class="nav hidden">
+      <ul id="fixed" class="nav-list">
+        <div id="divNav">
+          <li><a href="http://google.com"> <button >Recherche</button> </a></li>
+          <li><a href="http://google.com"> <button>Favoris</button> </a></li>
+          <li><a href="profil.html"> <button id="activeBtn">Profil</button> </a></li>
+        </div>
+      </ul>
+      <button id="test_bas">Déconexion</button>
+    </nav>
+  </div>
+
+
+  <section id="creeSalarie">
+    <h1>Ajouter un salaries</h1>
+    <input class="input" id="nom" type="text" required placeholder="Nom"><br><br>
+    <input class="input" id="prenom" type="text" required placeholder="Prenom"><br><br>
+    <input class="input" id="telPortable" type="tel" placeholder="Numero de telephone portable"><br><br>
+    <input class="input" id="telFix" type="tel" placeholder="Numero de telephone fix"><br><br>
+    <input class="input" id="mail" type="email" placeholder="Adresse mail"><br><br>
+    <select class="input" name="admin" id="admin">
+        <option value="false">Salarie</option>
+        <option value="true">Administrateur</option>
+    </select><br><br>
+    <!-- <input class="input" id="password" type="password" placeholder="Mots de passe temporaire"><br><br> -->
+    <select class="input" name="site" id="site"></select><br><br>
+    <select class="input" name="service" id="service"></select><br><br>
+    <button class="input" id="btnValidation">Valider</button>
+  </section>
+
+
+
+  <script src="salaries.js"></script>
+  <script src="../../renderer.js"></script>
+</body>
+
+</html>

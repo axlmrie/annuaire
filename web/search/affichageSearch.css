@@ -1,0 +1,71 @@
+.affichageListe{
+    border: solid 1vh #038C8C;
+    width: 24%;
+    margin: 3%;
+
+    padding: 1%;
+}
+#affichage{
+    display: flex;
+    flex-wrap: wrap;
+}
+#search{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 125%;
+    font-weight: bold;
+}
+#search::placeholder {
+    color: #038C8C; 
+    opacity: 1; 
+}
+
+#search::-webkit-input-placeholder {
+    color: #038C8C; 
+}
+
+
+#search:-moz-placeholder {
+    color: #038C8C; 
+    opacity: 1;
+}
+
+/* Internet Explorer 10+ */
+#search:-ms-input-placeholder {
+    color: #038C8C; 
+}
+
+/* Microsoft Edge */
+#search::-ms-input-placeholder {
+    color: #038C8C; 
+}
+.filtre{
+    display: flex;
+}
+.filtre > select{
+    font-size: 3vh;
+}
+.filtre > option{
+    color: #038C8C;
+}
+#services, #boutonFiltre{
+    margin-left: 20%;
+    margin-right: 8%;
+}
+select{
+    width: 26%;    
+}
+#boutonFiltre{
+    background-color: #038C8C;
+    color: white;
+    border: none;
+    width: 60%;
+    margin-top: 2%;
+    font-size: 5vh;
+}
+#boutonFiltre:hover{
+    background-color: #025159;
+    cursor: url('../assets/search.png') 6 6, auto;
+}
+

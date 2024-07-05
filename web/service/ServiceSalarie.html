@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GastroNet</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../search/affichageSearch.css">
+  <link rel="stylesheet" href="../nav.css">
+  <script src="../nav.js" defer></script>
+  <script src="ServiceSalarie.js" defer></script>
+</head>
+
+<body>
+
+  <h1 id="titre">GastroNet</h1>
+  <div class="color">
+    <input type="checkbox" role="button" aria-label="Display the menu" id="menu">
+    <nav class="nav hidden">
+      <ul id="fixed" class="nav-list">
+        <div id="divNav">
+        <li><a href="../search/search.html"> <button>Recherche</button> </a></li>
+        <li><a href="#"> <button id="activeBtn">Service</button> </a></li>
+        <li><a href="../profil/profil.html"> <button>Profil</button> </a></li>
+      </div>
+      </ul>
+      <button id="test_bas">Déconexion</button>
+    </nav>
+    
+  </div>
+
+  <section id="affichage">
+
+  </section>
+
+  <script src="../../renderer.js"></script>
+</body>
+
+</html>

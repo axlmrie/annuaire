@@ -1,0 +1,26 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.input{
+    width:80%;
+
+}
+#creeSalarie{
+    text-align: center;
+    margin-top: 5%;
+    border: solid 1vh red;
+    border-radius: 2vh;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 2%;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
